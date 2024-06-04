@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaFlow.Api", "FinaFlow.Api\FinaFlow.Api.csproj", "{1522B49C-66B6-4C6E-B74A-5D291AAC2E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaFlow.App", "FinaFlow.App\FinaFlow.App.csproj", "{5DC0F9AC-519D-49F2-99CE-2A1DE99699DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaFlow.Core", "FinaFlow.Core\FinaFlow.Core.csproj", "{6312F782-602B-4894-BC7A-16C9ACBFAA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1522B49C-66B6-4C6E-B74A-5D291AAC2E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1522B49C-66B6-4C6E-B74A-5D291AAC2E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1522B49C-66B6-4C6E-B74A-5D291AAC2E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1522B49C-66B6-4C6E-B74A-5D291AAC2E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC0F9AC-519D-49F2-99CE-2A1DE99699DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC0F9AC-519D-49F2-99CE-2A1DE99699DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC0F9AC-519D-49F2-99CE-2A1DE99699DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC0F9AC-519D-49F2-99CE-2A1DE99699DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6312F782-602B-4894-BC7A-16C9ACBFAA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6312F782-602B-4894-BC7A-16C9ACBFAA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6312F782-602B-4894-BC7A-16C9ACBFAA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6312F782-602B-4894-BC7A-16C9ACBFAA27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
