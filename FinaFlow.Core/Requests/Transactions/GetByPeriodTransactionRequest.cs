@@ -1,6 +1,6 @@
 ﻿namespace FinaFlow.Core.Requests.Transactions;
 
-public class GetByPeriodTransactionRequest : Request
+public class GetByPeriodTransactionRequest : PagedRequest
 {
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
