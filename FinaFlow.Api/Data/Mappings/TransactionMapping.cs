@@ -27,7 +27,7 @@ public class TransactionMapping : IEntityTypeConfiguration<Transaction>
             .IsRequired();
         builder.Property(t => t.PaidOrReceivedAt)
             .IsRequired(false);
-        builder.Property(t => t.UserdId)
+        builder.Property(t => t.UserId)
             .IsRequired()
             .HasColumnType("varchar")
             .HasMaxLength(160);
